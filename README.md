@@ -36,13 +36,17 @@ Rather than simply storing solutions, this repository is intended to track my le
 
 ## 📂 Project Structure
 
-```
+```text
 sql-practice/
 │
 ├── basics/
-├── advanced/
-├── exercises/
-├── images/
+│   ├── select.sql
+│   ├── where.sql
+│   ├── orderby.sql
+│   ├── aggregate.sql
+│   └── groupby.sql
+│
+├── schema.sql
 └── README.md
 ```
 
@@ -54,10 +58,10 @@ sql-practice/
 |------|:------:|
 | SELECT | ✅ |
 | WHERE | ✅ |
-| ORDER BY | ⏳ |
-| GROUP BY | ⏳ |
-| HAVING | ⏳ |
-| JOIN | ⏳ |
+| ORDER BY | ✅ |
+| GROUP BY | ✅ |
+| HAVING | ✅ |
+| JOIN | ✅ |
 | Subqueries | ⏳ |
 | Window Functions | ⏳ |
 | Common Table Expressions (CTE) | ⏳ |
@@ -77,11 +81,11 @@ This repository serves as a record of my continuous learning and practical SQL e
 
 ## 🚀 Future Plans
 
-- Solve practical SQL exercises
-- Optimize query performance
-- Learn advanced SQL techniques
-- Apply SQL to Kaggle datasets
-- Integrate SQL with Python for data analysis
+- Practice SQL using real-world datasets
+- Solve SQL interview questions
+- Learn JOINs and Window Functions
+- Integrate PostgreSQL with Python (pandas)
+- Build data analysis projects using SQL
 
 ---
 
